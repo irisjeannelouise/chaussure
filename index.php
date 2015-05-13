@@ -7,9 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>chaussure</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,11 +32,23 @@
 
     <?php include "menu.php" ; ?>
 
-    <div class="container">
+    <div class="container"style="margin-top:90px;">
 
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <h1>Bonjour et bienvenue</h1>
+        <h2 class="lead">Vous voulez en savoir plus sur votre pointure de pieds?</h2>
+        <br> 
+       <p> En France, les pointures des chaussures sont exprimées sans unité de mesure mais les nombres représentés par ces pointures sont obtenu par un calcul plutôt simple :
+
+La pointure des chaussures se calcule en prenant de la taille du pied à plat + 1 cm divisée par 2/3. Vous arrondirez toujours le résultat à l’entier le plus proche (voire au demi le plus proche si votre marque préférée propose des demi-pointures).
+
+Par exemple, quelqu’un dont le pied mesure 28 cm au repos fera du 44 :
+
+(28 + 1) / (2/3) = 44
+
+Si vous achetez vos chaussures en Italie, sachez que le standard Italien est une taille au dessus du standard français : le 44 italien correspondra au 43 français.
+
+Pour les autres pays, je vous laisserai consulter le tableau de correspondance de Wikipédia car les valeurs ne sont pas forcément proportionnelles et peuvent varier en fonction du sexe.</p>
       </div>
 
     </div><!-- /.container -->
